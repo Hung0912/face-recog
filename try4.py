@@ -1,7 +1,6 @@
 import cv2
 import urllib.request
 import numpy as np
-
 import face_recognition
 from os import walk
 
@@ -13,7 +12,7 @@ print("Success connect to "+ stream_url)
 # print(type(stream))
 
 # Tai thu muc chua anh
-mypath = "C:/Users/pbhhe/OneDrive/Documents/Python/learning/image"
+mypath = "C:/Users/pbhhe/OneDrive/Documents/Python/learning/face-recog/image"
 f = []
 for root, dirs, files in walk(mypath):
     # print (root)

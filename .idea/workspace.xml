@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eed28bd7-3fdf-46ce-868f-18f12baa6013" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/face-recog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/biden/biden.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/obama/obama.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000015.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000025.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000027.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000028.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000031.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000041.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000046.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000063.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000065.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000082.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/alan_grant/00000089.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/biden/biden.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000018.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000019.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000020.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000025.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000026.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000028.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000029.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000031.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000033.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000034.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000035.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000036.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000037.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000038.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000041.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000043.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000052.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000054.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000055.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000060.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000062.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000063.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000068.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000071.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000072.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000073.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000074.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000075.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000076.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000078.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000079.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000081.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/claire_dearing/00000083.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000003.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000015.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000025.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000030.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000032.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000037.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000038.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000042.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000054.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000059.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000064.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000065.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000069.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000070.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000083.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ellie_sattler/00000087.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/hung/hung.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000013.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000015.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000018.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000019.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000027.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000030.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000031.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000035.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000036.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000040.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000048.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000050.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000051.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000062.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000069.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000072.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000074.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000080.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000082.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000083.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000086.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000088.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/ian_malcolm/00000092.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000013.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000015.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000025.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000029.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000031.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000032.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000036.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000037.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000038.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000042.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000065.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000066.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000068.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000072.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000073.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000075.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000085.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000088.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000089.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/john_hammond/00000090.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/obama/obama.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000013.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000015.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000018.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000026.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000027.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000029.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000030.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000034.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000035.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000041.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000047.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000059.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000068.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000070.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000080.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000083.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/owen_grady/00000086.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset2/van/van.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/encode_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/encodings.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/video1.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recog_url_stream.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search_bing_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCuda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facerec_from_webcam_faster.py" beforeDir="false" afterPath="$PROJECT_DIR$/facerec_from_webcam_faster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/hung.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/hung/hung.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/mai van.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/van/van.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lin-manuel-miranda.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/lin-manuel-miranda.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obama-1080p.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/obama-1080p.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obama-240p.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/obama-240p.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obama-480p.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/obama-480p.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obama-720p.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/obama-720p.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obama2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/obama2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obama_small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/obama_small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/try4.py" beforeDir="false" afterPath="$PROJECT_DIR$/try4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_people.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/two_people.jpg" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/facerec_from_webcam_faster.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/try4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/encode_dataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-145">
+              <caret line="1" column="74" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recog_url_stream.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset2/obama/obama.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search_bing_api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCuda.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/testCuda.py" />
+        <option value="$PROJECT_DIR$/try4.py" />
+        <option value="$PROJECT_DIR$/try5" />
+        <option value="$PROJECT_DIR$/try6.py" />
+        <option value="$PROJECT_DIR$/encode_dataset.py" />
+        <option value="$PROJECT_DIR$/recog_url_stream.py" />
+        <option value="$PROJECT_DIR$/facerec_from_webcam_faster.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/face-recog.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="face-recog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="face-recog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="face-recog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="face-recog" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataset2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pbhhe\OneDrive\Documents\Python\learning\face-recog\dataset2" />
+      <recent name="C:\Users\pbhhe\OneDrive\Documents\Python\learning\face-recog" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.try6">
+    <configuration name="facerec_from_webcam_faster" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="face-recog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/facerec_from_webcam_faster.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testCuda" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="face-recog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCuda.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="try4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="face-recog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/try4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="try5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="face-recog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/try5" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="try6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="face-recog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/try6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.try6" />
+        <item itemvalue="Python.facerec_from_webcam_faster" />
+        <item itemvalue="Python.try5" />
+        <item itemvalue="Python.testCuda" />
+        <item itemvalue="Python.try4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eed28bd7-3fdf-46ce-868f-18f12baa6013" name="Default Changelist" comment="" />
+      <created>1556077312177</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556077312177</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22023809" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32411674" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33947772" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/two_people.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obama_small.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obama2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://D:/python3.7.3/Lib/site-packages/face_recognition/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2582">
+          <caret line="222" lean-forward="true" selection-start-line="222" selection-end-line="222" />
+          <folding>
+            <element signature="e#25#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/try5">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="61" />
+          <folding>
+            <element signature="e#103#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset2/claire_dearing/00000008.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset2/claire_dearing/00000012.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset2/claire_dearing/00000003.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset2/claire_dearing/00000000.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/try6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <element signature="e#228#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/try5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-672" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/try4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recog_url_stream.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/encode_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="1" column="74" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset2/obama/obama.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_bing_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCuda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facerec_from_webcam_faster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
